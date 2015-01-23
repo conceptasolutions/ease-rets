@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="static/js/ie-emulation-modes-warning.js"></script>
+	
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
+			  <div class="navbar-header">
+				<a class="navbar-brand" href="#">Real Estate Alerter</a>
+			  </div>
+			  <div class="navbar-header pull-right">
+				<a class="navbar-brand" href="#">Jon Doe</a>
+				<a class="navbar-brand" href="#">Logout</a>
+			  </div>
+			</div><!--/.container-fluid -->
+		</nav>
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Favourite Areas</a>
+			</div>
+			<div class="navbar-header pull-right">
+				<a class="navbar-brand" href="#" data-toggle="modal" data-target="#addArea">Add New</a>
+			</div>
+		</div><!--/.container-fluid -->
+
+		<div class="masthead">
+			<hr / style="margin:0px;">
+			<div role="navigation">
+			  <ul class="nav col-md-12">
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>FENWAY</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>BRIGHTON</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>ALLSTON</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>SOUTH END</h4></a></li>
+			  </ul>
+			  <ul class="nav col-md-12">
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+			  </ul>
+			</div>
+		</div>
+		<!-- POPup -->
+
+		<!-- Modal -->
+		<div class="modal fade" id="addArea" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Add new Favourite Area</h4>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-fav" role="form">
+					<label for="inputEmail" class="sr-only">City (Type Here)</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+					<select name="min price" id="" class="minprice" style="margin-left:0;">
+						<option value="">min price</option>
+						<option value="">100000</option>
+						<option value="">200000</option>
+					</select>
+					<select name="max price" id="" class="maxprice">
+						<option value="">max price</option>
+						<option value="">999999</option>
+						<option value="">999999</option>
+					</select>
+					<select name="beds" id="" class="beds">
+						<option value="">beds</option>
+						<option value="">1</option>
+						<option value="">2</option>
+					</select>
+					<select name="baths" id="" class="baths">
+						<option value="">baths</option>
+						<option value="">2</option>
+						<option value="">1</option>
+					</select>
+					<select name="type" id="" class="type">
+						<option value="">type</option>
+						<option value="">terrace</option>
+						<option value="">flat</option>
+					</select>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">New Property Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Daily
+						</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Hourly
+						</label>
+					</div>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">Open House Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Remember me
+						</label>
+					</div>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">Permission to Sync Calender Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Remember me
+						</label>
+					</div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save</button>
+					  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!-- Button trigger modal -->
+
+
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Favourite Properties</a>
+			</div>
+			<div class="navbar-header pull-right">
+				<a class="navbar-brand" href="#" data-toggle="modal" data-target="#addProperties">Add New</a>
+			</div>
+		</div><!--/.container-fluid -->
+
+		<div class="masthead">
+			<hr / style="margin:0px;">
+			<div role="navigation">
+			  <ul class="nav col-md-12">
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>61 Brookline Boston</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>Beacon St Boston</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
+			  </ul>
+			</div>
+		</div>
+
+		<!-- POPup -->
+
+		<!-- Modal -->
+		<div class="modal fade" id="addProperties" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			  </div>
+			  <div class="modal-body">
+				...
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!-- Button trigger modal -->
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+	<!-- JavaScript Includes -->
+	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/transition.js"></script>
+	<script src="static/js/modal.js"></script>
+	<script src="static/js/tooltip.js"></script>
+	<script src="static/js/popover.js"></script>
+
+	<!-- JavaScript Test -->
+	<script>
+	$(function () {
+	  $('.js-popover').popover()
+	  $('.js-tooltip').tooltip()
+	})
+	</script>
+
+  </body>
+</html>

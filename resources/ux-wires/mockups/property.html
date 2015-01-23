@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Property</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/justified-nav.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="static/js/ie-emulation-modes-warning.js"></script>
+	
+	<!-- Popup Gallery Plugin -->
+  <link rel="stylesheet" type="text/css" media="all" href="static/css/magnific-popup.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<a class="navbar-brand" href="#">Real Estate Alerter</a>
+			  </div>
+			  <div class="navbar-header pull-right">
+				<a class="navbar-brand" href="#">Jon Doe</a>
+				<a class="navbar-brand" href="#">Logout</a>
+			  </div>
+			</div><!--/.container-fluid -->
+		</nav>
+		<div class="container-fluid" style="background:#999;color:#FFF;">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" style="color:#FFF;">61 Brookline Ave, Boston</a>
+			</div>
+			<div class="navbar-header pull-right">
+				<a class="navbar-brand" href="#" data-toggle="modal" data-target="#share" style="color:#FFF;">Sharing</a>
+				<a class="navbar-brand" href="#" data-toggle="modal" data-target="#share" style="color:#FFF;">Favourite</a>
+			</div>
+		</div><!--/.container-fluid -->
+		
+
+		<!-- Modal -->
+		<div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content" style="overflow: auto;">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Share with Friends</h4>
+			  </div>
+			  <div class="modal-body">
+				<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+				<button type="button" class="btn btn-primary" style="margin-top:10px;">Send Invite</button>
+			  </div>
+			  <hr / style="margin:5px 0">
+			<div class="checkbox n-shares">
+				<label for="" class="label">Existing Shares</label>
+				<label>
+					<input type="checkbox" value="remember-me"> john.doe@gmail.com
+				</label>
+			</div>
+			</div>
+		  </div>
+		</div>
+		<!-- Button trigger modal -->
+
+		<!-- Images and Details section -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 details-section">
+			<!-- Details -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 section">
+				<div class="details-heading">
+					<p>
+						ILS # 456321838 -
+						<span>NEW</span>
+					</p>
+					<p>
+						Single Family - Detached
+					</p>
+				</div>
+				<div class="details-details">
+					<div class="sub-details">
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12"><b>11 Utica, Unit # Lexington, Massachusetts 02420 Middlesex</b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">List Price: <b>$997,500</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Unit Placement: <b></b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">Total Rooms: <b>12</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Unit Level: <b></b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">Bedrooms: <b>5</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Grade School: <b>Harrington</b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">Bathrooms: <b>4.0</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Middle School: <b>Clarke</b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">Master Bath: <b>Yes</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">High School: <b>Lhs</b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12">Fireplaces: <b>0</b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Outdoor Space Avail: <b></b></p>
+						<p class="col-lg-5 col-md-5 col-sm-12 col-xs-12"> <b></b></p>
+						<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">Handicap Access/Features: <b></b></p>
+						<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Directions: <b>From Lexington Center, Take Woburn Street, Utica Is Left Turn Off Woburn House Is On Right</b></p>
+					</div>
+					<div class="sub-details">
+						<p>
+						
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- Map -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 section">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d945.9591162855172!2d73.90033402390463!3d18.491065303735652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1421917819595" height="345" width="100%" frameborder="0" style="border:0"></iframe>
+			</div>
+			<!-- Images with Gallery -->
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 section">
+				<div id="portfolio" class="clearfix">
+
+				  <a href="static/images/property1.jpg"><img src="static/images/property1.jpg" class="prop-img-thumb" ></a>
+				  <a href="static/images/item02@2x.jpg"></a>
+				  <a href="static/images/item03@2x.jpg"></a>
+				  <a href="static/images/item04@2x.jpg"></a>
+				  <a href="static/images/item05@2x.jpg"></a>
+				  <a href="static/images/item06@2x.jpg"></a>
+				  <a href="static/images/item07@2x.jpg"></a>
+				  <a href="static/images/item08@2x.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<!-- Images and Details section Ends -->
+		<!-- Remarks Section -->
+		<div class="property-div col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="property-div">
+				<hr />
+				<div class="property-heading"><p>REMARKS</p></div>
+			</div>
+			<div class="property-div">
+				<div>
+					<p>Spacious, sun filled colonial Farmhouse on .6 acres in peaceful country setting, just minutes from busy town center. Dead-end street accesses 110 acre Lower Vine Brook Conservation area with 4.5 miles of trails for recreational use. With 3593 s/f of versatile living space, this home is a best-of-both worlds combination of a classic design with a modern '04 addition. Rocking chair porch welcomes you to the entry foyer and formal rooms. Huge multi-windowed family room addition looks out on expansive grounds, peach trees, and has a full bath to accommodate guests. The master suite above has a full bath and a sitting room. Two more bedrooms are served by another full bath. Three rooms on the third floor could be a teenage retreat, or an option for office or hobbies. A large lower level room now used as a rec room/exercise space has a full bath and separate entrance. The side porch is ideal for outdoor cooking and a rear covered porch invites open-air dining. Garden shed!
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- Remarks Section Ends -->
+		
+		<!-- Property Information Section -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 info-section">
+			<div class="property-div">
+				<hr />
+				<div class="property-heading"><p>Property Information</p></div>
+			</div>
+			<div class="property-div">
+				<div>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Approx. Living Area: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Approx. Acres: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Garage Spaces: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Living Area Includes: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Heat Zones: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Parking Spaces: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Living Area Source: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Cool Zones: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Approx. Street Frontage: <span>(Unlock)</span></p>
+					<p class="col-lg-4 col-md-4 col-sm-12 col-xs-12 entity">Living Area Disclosures: <span>(Unlock)</span></p>
+				</div>
+			</div>
+		</div>
+		<!-- Property Information Section Ends -->
+		<!-- Property Details Section -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rooms-dim">
+			<div class="property-div">
+				<hr />
+				<div class="property-heading"><p>Room, Levels, Dimentions and Features</p></div>
+			</div>
+			<div class="property-div">
+				<table class="table">
+				   <thead>
+					  <tr>
+						 <th>ROOM</th>
+						 <th>LEVEL</th>
+						 <th>SIZE</th>
+						 <th>FEATURES</th>
+					  </tr>
+				   </thead>
+				   <tbody>
+					  <tr>
+						 <td>Living Room:</td>
+						 <td>First Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Dining Room:</td>
+						 <td>First Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Kitchen:</td>
+						 <td>First Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Master Bedroom:</td>
+						 <td>Second Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bedroom 2:</td>
+						 <td>Second Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bedroom 3:</td>
+						 <td>Second Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bedroom 4:</td>
+						 <td>Third Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bedroom 5:</td>
+						 <td>Third Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bath 1:</td>
+						 <td>First Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bath 2:</td>
+						 <td>Second Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Bath 3:</td>
+						 <td>Second Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Laundry:</td>
+						 <td>Basement</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+					  <tr>
+						 <td>Office:</td>
+						 <td>First Floor</td>
+						 <td><span>(Unlock)</span></td>
+						 <td><span>(Unlock)</span></td>
+					  </tr>
+				   </tbody>
+				</table>
+			</div>
+		</div>
+		<!-- Property Details Section Ends -->
+		<!-- Property features Section -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 features">
+			<div class="property-div col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<div class="property-div">
+					<hr />
+					<div class="property-heading"><p>Features</p></div>
+				</div>
+				<div><p class="entity">Appliances: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Area Amenities: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Basement: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Beach: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Construction: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Electric: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Energy Features: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Exterior: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Exterior Features: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Foundation Size: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Foundation Description: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Hot Water: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Interior Features: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Lot Description: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Road Type: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Roof Material: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Sewer Utilities: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Utility Connections: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Water Utilities: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Waterfront: <span>(Unlock)</span> </p></div>
+				<div><p class="entity">Water View: <span>(Unlock)</span> </p></div>
+			</div>
+			<div class="property-div col-lg-5 col-md-5 col-sm-12 col-xs-12">
+				<div>
+					<div class="property-div">
+						<hr />
+						<div class="property-heading"><p>OTHER PROPERTY INFO</p></div>
+					</div>
+					<div><p class="entity">Disclosure Declaration: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Disclosures: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Exclusions: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Home Own Assn: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Lead Paint: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">UFFI: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Year Built: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Year Built Description: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Year Round: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Short Sale w/Lndr.App.Req: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Lender Owned: <span>(Unlock)</span> </p></div>
+				</div>
+				<div>
+					<div class="property-div">
+						<hr />
+						<div class="property-heading"><p>TAX INFO</p></div>
+					</div>
+					<div><p class="entity">Pin #: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Assessed: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Tax: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Book: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Cert: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Zoning Code: <span>(Unlock)</span> </p></div>
+					<div><p class="entity">Map: <span>(Unlock)</span> </p></div>
+				</div>
+			</div>
+		</div>
+		<!-- Property features Section Ends -->
+		
+		<!-- Property History Section -->
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="property-div">
+				<hr />
+				<div class="property-heading"><p>PROPERTY HISTORY FOR 11 UTICA, LEXINGTON MASSACHUSETTS 02420</p></div>
+			</div>
+			<div class="property-div">
+				<table class="table">
+				   <thead>
+					  <tr>
+						 <th>MLS #</th>
+						 <th>DATE</th>
+						 <th>DETAILS</th>
+						 <th>DOM</th>
+						 <th>PRICE</th>
+					  </tr>
+				   </thead>
+				   <tbody>
+					  <tr>
+						 <td><p class="entity"><span>(Unlock)</span></p></td>
+						 <td>Boston</td>
+						 <td>Market History for Jean Winchester (Hammond Residential)</td>
+						 <td>2</td>
+						 <td>$4988</td>
+					  </tr>
+				   </tbody>
+				</table>
+			</div>
+		</div>
+		<!-- Property History Section Ends -->
+		
+		<!-- Property remarks section 
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="property-div">
+				<hr />
+				<div class="property-heading"><p>REMARKS</p></div>
+			</div>
+		</div>
+		<!-- Property remarks section Ends -->
+	
+		<!-- Comments Section -->
+		<div class="container-fluid">
+			<div class="navbar-header col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background:#999;margin-left:0;">
+				<a class="navbar-brand" href="#">Comments</a>
+			</div>
+			<div class="property-div">
+				<div class="comments-box odd">
+					<div class="name-details">
+						<p>
+							John Doe
+							<span>
+								- 07-25-2015 :: 18:44:35
+							</span>
+						</p>
+					</div>
+					<div class="comment">
+						<p>
+							Huge multi-windowed family room addition looks out on expansive grounds, peach trees, and has a full bath to accommodate guests. The master suite above has a full bath and a sitting room. Two more bedrooms are served by another full bath.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="property-div">
+				<div class="comments-box even">
+					<div class="name-details">
+						<p>
+							John Doe
+							<span>
+								- 07-25-2015 :: 18:44:35
+							</span>
+						</p>
+					</div>
+					<div class="comment">
+						<p>
+							Huge multi-windowed family room addition looks out on expansive grounds, peach trees, and has a full bath to accommodate guests. The master suite above has a full bath and a sitting room. Two more bedrooms are served by another full bath.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/.container-fluid -->
+	</div>
+  </body>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+	<!-- JavaScript Includes -->
+	<script type="text/javascript" src="static/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/transition.js"></script>
+	<script src="static/js/modal.js"></script>
+	<script src="static/js/tooltip.js"></script>
+	<script src="static/js/popover.js"></script>
+
+	<!-- JavaScript Test -->
+	<script type="text/javascript">
+	$(function(){
+	  $('#portfolio').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		image: {
+		  cursor: null,
+		  titleSrc: 'title'
+		},
+		gallery: {
+		  enabled: true,
+		  preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+		  navigateByImgClick: true
+			}
+	  });
+	});
+	</script>
+	<script>
+	$(function () {
+	  $('.js-popover').popover()
+	  $('.js-tooltip').tooltip()
+	})
+	</script>
+
+</html>

@@ -1,0 +1,289 @@
+*
+{
+  margin: 0 auto;
+  overflow: auto;
+}
+body {
+  background-color: #fff;
+}
+.container
+{
+	background: #ddd;
+	padding: 20px 0;
+	min-height: 700px;
+	box-shadow: 0 0 5px 3px #AAAAAA;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5; /* Old browsers */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #f5f5f5), to(#e5e5e5));
+  background-image:         linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x; /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+}
+.nav-justified > li:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.masthead div ul li a
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #777;
+	text-align: center;
+	background-color: #e5e5e5; /* Old browsers */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+	background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+	background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(top), color-stop(0%, #f5f5f5), to(#e5e5e5));
+	background-image:         linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	background-repeat: repeat-x; /* Repeat the gradient */
+	border-bottom: 1px solid #d5d5d5;
+	margin: 15px;
+	height: 75px;
+}
+.masthead div ul li
+{
+	padding: 0px;
+	display: table-cell;
+}
+.modal-footer {
+	padding: 15px 15px 0;
+	overflow: auto;
+}
+.form-fav select
+{
+	display: block;
+	height: 34px;
+	margin: 8px;
+	float:left;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	overflow: auto;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.n-rememberme
+{
+	position: static;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: auto;
+	float: left;
+	width: 100%;
+}
+.n-rememberme label
+{
+	width:100%;
+}
+.n-rememberme .label
+{
+	padding-left: 0px;
+	color: #000;
+	font-size: 15px;
+	cursor: default;
+}
+.property-div
+{
+	overflow: auto;
+	position: static;
+	padding: 0 10px;
+}
+.property-heading
+{
+	margin: 0 auto;
+	overflow: auto;
+	color: #800000;
+	font-size: 16px;
+	width:100%;
+}
+.property-heading p
+{
+//	position: absolute;
+	text-align: center;
+}
+.n-shares
+{
+	position: static;
+	overflow: auto;
+	float: left;
+	margin: 15px;
+}
+.n-shares label
+{
+	width:100%;
+}
+.n-shares .label
+{
+	padding-left: 0px;
+	color: #000;
+	font-size: 15px;
+	cursor: default;
+}
+.details-section
+{
+	background:#EEE;
+	font-size: 12px;
+	margin:0 auto;
+	padding:3px;
+}
+.details-section .section
+{
+	margin:0 auto;
+	padding:3px;
+}
+.details-section .details-heading
+{
+	background: #E6E6E6;
+	font-size: 16px;
+	font-weight: 600;
+}
+.details-section .details-heading p
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:10px;
+}
+.details-section .details-details
+{
+	background:#D6D6D6;
+}
+.prop-img-thumb
+{
+	width:100%;
+}
+.info-section
+{
+	margin:0 auto;
+	overflow: auto;
+}
+.info-section 
+{
+	margin:0 auto;
+	overflow: auto;
+}
+.entity span
+{
+	color: #0000FF;
+}
+.entity
+{
+	margin:0;
+	padding:0;
+}
+.rooms-dim table span
+{
+	color: #0000FF;
+}
+.comments-box
+{
+	margin: 30px 10px 10px 10px;
+	padding: 15px 15px 10px 15px;
+	border: 1px solid #FFF;
+	box-shadow: 0 0 4px -1px #555;
+}
+.name-details
+{
+	margin-top: -25px;
+	z-index: 100;
+	position: absolute;
+	background: #FFF;
+	border-radius: 10px;
+	box-shadow: -2px -2px 5px;
+	border: 1px solid #BBB;
+}
+.name-details p
+{
+	margin-bottom: 0;
+	padding: 2px 10px;
+}
+.name-details p span
+{
+
+}
+.odd
+{
+	background:#E6E6E6;
+}
+.even
+{
+	background:#EEE;
+}
