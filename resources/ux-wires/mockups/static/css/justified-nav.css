@@ -185,7 +185,7 @@ body {
 	position: static;
 	overflow: auto;
 	float: left;
-	margin: 15px;
+	margin: 15px 0;
 }
 .n-shares label
 {

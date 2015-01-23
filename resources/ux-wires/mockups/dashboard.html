@@ -39,7 +39,7 @@
 			  </div>
 			  <div class="navbar-header pull-right">
 				<a class="navbar-brand" href="#">Jon Doe</a>
-				<a class="navbar-brand" href="#">Logout</a>
+				<a class="navbar-brand" href="index.html">Logout</a>
 			  </div>
 			</div><!--/.container-fluid -->
 		</nav>
@@ -52,14 +52,272 @@
 			</div>
 		</div><!--/.container-fluid -->
 
+		<!-- Modal -->
+		<div class="modal fade" id="addArea" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Add Favourite Area</h4>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-fav" role="form">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<!-- <label for="inputEmail" class="sr-only">City (Type Here)</label>
+						<input type="email" id="inputEmail" class="form-control" placeholder="Select City" required autofocus> -->
+						
+						<select name="min price" id="" class="minprice col-lg-6 col-md-6 col-sm-6 col-xs-12	" placeholder="Select City" style="margin-left:0;">
+							<option value="">Select City</option>
+							<option value="">Abington</option>
+							<option value="">Acton</option>
+							<option value="">Allston</option>
+							<option value="">Amesbury</option>
+							<option value="">Andover</option>
+							<option value="">Arlington</option>
+							<option value="">Ashland</option>
+							<option value="">Attleboro</option>
+							<option value="">Avon</option>
+							<option value="">Ayer</option>
+							<option value="">Back Bay</option>
+							<option value="">Beacon Hill</option>
+							<option value="">Bedford</option>
+							<option value="">Bellingham</option>
+							<option value="">Belmont</option>
+							<option value="">Beverly</option>
+							<option value="">Billerica</option>
+							<option value="">Bolton</option>
+							<option value="">Boston</option>
+							<option value="">Boxborough</option>
+							<option value="">Boxford</option>
+							<option value="">Braintree</option>
+							<option value="">Bridgewater</option>
+							<option value="">Brighton</option>
+							<option value="">Brockton</option>
+							<option value="">Brookline</option>
+							<option value="">Burlington</option>
+							<option value="">Cambridge</option>
+							<option value="">Canton</option>
+							<option value="">Carlisle</option>
+							<option value="">Carver</option>
+							<option value="">Chelmsford</option>
+							<option value="">Chelsea</option>
+							<option value="">Clinton</option>
+							<option value="">Cohasset</option>
+							<option value="">Concord</option>
+							<option value="">Danvers</option>
+							<option value="">Dartmouth</option>
+							<option value="">Dedham</option>
+							<option value="">Dorchester</option>
+							<option value="">Dover</option>
+							<option value="">Dracut</option>
+							<option value="">Duxbury</option>
+							<option value="">East Boston</option>
+							<option value="">East Bridgewater</option>
+							<option value="">Easton</option>
+							<option value="">Essex</option>
+							<option value="">Everett</option>
+							<option value="">Fall River</option>
+							<option value="">Foxboro</option>
+							<option value="">Framingham</option>
+							<option value="">Franklin</option>
+							<option value="">Georgetown</option>
+							<option value="">Gloucester</option>
+							<option value="">Grafton</option>
+							<option value="">Groton</option>
+							<option value="">Halifax</option>
+							<option value="">Hamilton</option>
+							<option value="">Hanover</option>
+							<option value="">Hanson</option>
+							<option value="">Harvard</option>
+							<option value="">Haverhill</option>
+							<option value="">Hingham</option>
+							<option value="">Holbrook</option>
+							<option value="">Holden</option>
+							<option value="">Holliston</option>
+							<option value="">Hopedale</option>
+							<option value="">Hopkinton</option>
+							<option value="">Hudson</option>
+							<option value="">Hull</option>
+							<option value="">Hyde Park</option>
+							<option value="">Ipswich</option>
+							<option value="">Jamaica Plain</option>
+							<option value="">Kingston</option>
+							<option value="">Lakeville</option>
+							<option value="">Leominster</option>
+							<option value="">Lexington</option>
+							<option value="">Lincoln</option>
+							<option value="">Littleton</option>
+							<option value="">Lowell</option>
+							<option value="">Lynn</option>
+							<option value="">Lynnfield</option>
+							<option value="">Malden</option>
+							<option value="">Mansfield</option>
+							<option value="">Marblehead</option>
+							<option value="">Marion</option>
+							<option value="">Marlborough</option>
+							<option value="">Marshfield</option>
+							<option value="">Mattapan</option>
+							<option value="">Mattapoisett</option>
+							<option value="">Maynard</option>
+							<option value="">Medfield</option>
+							<option value="">Medford</option>
+							<option value="">Medway</option>
+							<option value="">Melrose</option>
+							<option value="">Merrimac</option>
+							<option value="">Methuen</option>
+							<option value="">Middleboro</option>
+							<option value="">Middleton</option>
+							<option value="">Milford</option>
+							<option value="">Millis</option>
+							<option value="">Milton</option>
+							<option value="">Nahant</option>
+							<option value="">Natick</option>
+							<option value="">Needham</option>
+							<option value="">Newbury</option>
+							<option value="">Newburyport</option>
+							<option value="">Newton</option>
+							<option value="">Norfolk</option>
+							<option value="">North Andover</option>
+							<option value="">North Attleboro</option>
+							<option value="">North End</option>
+							<option value="">North Reading</option>
+							<option value="">Northborough</option>
+							<option value="">Norton</option>
+							<option value="">Norwell</option>
+							<option value="">Norwood</option>
+							<option value="">Peabody</option>
+							<option value="">Pembroke</option>
+							<option value="">Plainfield</option>
+							<option value="">Plainville</option>
+							<option value="">Plymouth</option>
+							<option value="">Plympton</option>
+							<option value="">Quincy</option>
+							<option value="">Randolph</option>
+							<option value="">Raynham</option>
+							<option value="">Reading</option>
+							<option value="">Rehoboth</option>
+							<option value="">Revere</option>
+							<option value="">Rochester</option>
+							<option value="">Rockland</option>
+							<option value="">Rockport</option>
+							<option value="">Roslindale</option>
+							<option value="">Rowley</option>
+							<option value="">Roxbury</option>
+							<option value="">Salem</option>
+							<option value="">Salisbury</option>
+							<option value="">Saugus</option>
+							<option value="">Scituate</option>
+							<option value="">Sharon</option>
+							<option value="">Sherborn</option>
+							<option value="">Shrewsbury</option>
+							<option value="">Somerville</option>
+							<option value="">Southborough</option>
+							<option value="">South Boston</option>
+							<option value="">South End</option>
+							<option value="">Stoneham</option>
+							<option value="">Stoughton</option>
+							<option value="">Stow</option>
+							<option value="">Sudbury</option>
+							<option value="">Sutton</option>
+							<option value="">Swampscott</option>
+							<option value="">Taunton</option>
+							<option value="">Tewksbury</option>
+							<option value="">The Fenway</option>
+							<option value="">Topsfield</option>
+							<option value="">Wakefield</option>
+							<option value="">Walpole</option>
+							<option value="">Waltham</option>
+							<option value="">Wareham</option>
+							<option value="">Watertown</option>
+							<option value="">Wayland</option>
+							<option value="">Wellesley</option>
+							<option value="">Wenham</option>
+							<option value="">West Boylston</option>
+							<option value="">West Bridgewater</option>
+							<option value="">West Newbury</option>
+							<option value="">West Brookfield</option>
+							<option value="">West Roxbury</option>
+							<option value="">Westborough</option>
+							<option value="">Westford</option>
+							<option value="">Weston</option>
+							<option value="">Westport</option>
+							<option value="">Westwood</option>
+							<option value="">Weymouth</option>
+							<option value="">Whitman</option>
+							<option value="">Wilmington</option>
+							<option value="">Winchester</option>
+							<option value="">Winthrop</option>
+							<option value="">Woburn</option>
+							<option value="">Worcester</option>
+							<option value="">Wrentham</option>
+						</select>
+
+						<select name="min price" id="" class="minprice" style="margin-left:0;">
+							<option value="">min price</option>
+							<option value="">100000</option>
+							<option value="">200000</option>
+						</select>
+						<select name="max price" id="" class="maxprice">
+							<option value="">max price</option>
+							<option value="">999999</option>
+							<option value="">999999</option>
+						</select>
+						<select name="beds" id="" class="beds">
+							<option value="">beds</option>
+							<option value="">1</option>
+							<option value="">2</option>
+						</select>
+						<select name="baths" id="" class="baths">
+							<option value="">baths</option>
+							<option value="">2</option>
+							<option value="">1</option>
+						</select>
+						<select name="type" id="" class="type">
+							<option value="">type</option>
+							<option value="">terrace</option>
+							<option value="">flat</option>
+						</select>
+					</div>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">New Property Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Daily
+						</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Hourly
+						</label>
+					</div>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">Open House Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> Daily
+						</label>
+					</div>
+					<div class="checkbox n-rememberme">
+						<label for="" class="label">Permission to Sync Calender Alerts</label>
+						<label>
+							<input type="checkbox" value="remember-me"> True
+						</label>
+					</div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save</button>
+					  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!-- Button trigger modal -->
+
 		<div class="masthead">
 			<hr / style="margin:0px;">
 			<div role="navigation">
 			  <ul class="nav col-md-12">
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>FENWAY</h4></a></li>
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>BRIGHTON</h4></a></li>
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>ALLSTON</h4></a></li>
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>SOUTH END</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#" data-toggle="modal" data-target="#editArea"><h4>FENWAY</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#" data-toggle="modal" data-target="#editArea"><h4>BRIGHTON</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#" data-toggle="modal" data-target="#editArea"><h4>ALLSTON</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#" data-toggle="modal" data-target="#editArea"><h4>SOUTH END</h4></a></li>
 			  </ul>
 			  <ul class="nav col-md-12">
 				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
@@ -72,17 +330,204 @@
 		<!-- POPup -->
 
 		<!-- Modal -->
-		<div class="modal fade" id="addArea" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal fade" id="editArea" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		  <div class="modal-dialog">
 			<div class="modal-content">
 			  <div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Add new Favourite Area</h4>
+				<h4 class="modal-title" id="myModalLabel">Edit Favourite Area</h4>
 			  </div>
 			  <div class="modal-body">
 				<form class="form-fav" role="form">
-					<label for="inputEmail" class="sr-only">City (Type Here)</label>
-					<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+						<!-- <label for="inputEmail" class="sr-only">City (Type Here)</label>
+						<input type="email" id="inputEmail" class="form-control" placeholder="Select City" required autofocus> -->
+						
+						<select name="min price" id="" class="minprice col-lg-6 col-md-6 col-sm-6 col-xs-12	" placeholder="Select City" style="margin-left:0;">
+							<option value="">Select City</option>
+							<option value="">Abington</option>
+							<option value="">Acton</option>
+							<option value="">Allston</option>
+							<option value="">Amesbury</option>
+							<option value="">Andover</option>
+							<option value="">Arlington</option>
+							<option value="">Ashland</option>
+							<option value="">Attleboro</option>
+							<option value="">Avon</option>
+							<option value="">Ayer</option>
+							<option value="">Back Bay</option>
+							<option value="">Beacon Hill</option>
+							<option value="">Bedford</option>
+							<option value="">Bellingham</option>
+							<option value="">Belmont</option>
+							<option value="">Beverly</option>
+							<option value="">Billerica</option>
+							<option value="">Bolton</option>
+							<option value="">Boston</option>
+							<option value="">Boxborough</option>
+							<option value="">Boxford</option>
+							<option value="">Braintree</option>
+							<option value="">Bridgewater</option>
+							<option value="">Brighton</option>
+							<option value="">Brockton</option>
+							<option value="">Brookline</option>
+							<option value="">Burlington</option>
+							<option value="">Cambridge</option>
+							<option value="">Canton</option>
+							<option value="">Carlisle</option>
+							<option value="">Carver</option>
+							<option value="">Chelmsford</option>
+							<option value="">Chelsea</option>
+							<option value="">Clinton</option>
+							<option value="">Cohasset</option>
+							<option value="">Concord</option>
+							<option value="">Danvers</option>
+							<option value="">Dartmouth</option>
+							<option value="">Dedham</option>
+							<option value="">Dorchester</option>
+							<option value="">Dover</option>
+							<option value="">Dracut</option>
+							<option value="">Duxbury</option>
+							<option value="">East Boston</option>
+							<option value="">East Bridgewater</option>
+							<option value="">Easton</option>
+							<option value="">Essex</option>
+							<option value="">Everett</option>
+							<option value="">Fall River</option>
+							<option value="">Foxboro</option>
+							<option value="">Framingham</option>
+							<option value="">Franklin</option>
+							<option value="">Georgetown</option>
+							<option value="">Gloucester</option>
+							<option value="">Grafton</option>
+							<option value="">Groton</option>
+							<option value="">Halifax</option>
+							<option value="">Hamilton</option>
+							<option value="">Hanover</option>
+							<option value="">Hanson</option>
+							<option value="">Harvard</option>
+							<option value="">Haverhill</option>
+							<option value="">Hingham</option>
+							<option value="">Holbrook</option>
+							<option value="">Holden</option>
+							<option value="">Holliston</option>
+							<option value="">Hopedale</option>
+							<option value="">Hopkinton</option>
+							<option value="">Hudson</option>
+							<option value="">Hull</option>
+							<option value="">Hyde Park</option>
+							<option value="">Ipswich</option>
+							<option value="">Jamaica Plain</option>
+							<option value="">Kingston</option>
+							<option value="">Lakeville</option>
+							<option value="">Leominster</option>
+							<option value="">Lexington</option>
+							<option value="">Lincoln</option>
+							<option value="">Littleton</option>
+							<option value="">Lowell</option>
+							<option value="">Lynn</option>
+							<option value="">Lynnfield</option>
+							<option value="">Malden</option>
+							<option value="">Mansfield</option>
+							<option value="">Marblehead</option>
+							<option value="">Marion</option>
+							<option value="">Marlborough</option>
+							<option value="">Marshfield</option>
+							<option value="">Mattapan</option>
+							<option value="">Mattapoisett</option>
+							<option value="">Maynard</option>
+							<option value="">Medfield</option>
+							<option value="">Medford</option>
+							<option value="">Medway</option>
+							<option value="">Melrose</option>
+							<option value="">Merrimac</option>
+							<option value="">Methuen</option>
+							<option value="">Middleboro</option>
+							<option value="">Middleton</option>
+							<option value="">Milford</option>
+							<option value="">Millis</option>
+							<option value="">Milton</option>
+							<option value="">Nahant</option>
+							<option value="">Natick</option>
+							<option value="">Needham</option>
+							<option value="">Newbury</option>
+							<option value="">Newburyport</option>
+							<option value="">Newton</option>
+							<option value="">Norfolk</option>
+							<option value="">North Andover</option>
+							<option value="">North Attleboro</option>
+							<option value="">North End</option>
+							<option value="">North Reading</option>
+							<option value="">Northborough</option>
+							<option value="">Norton</option>
+							<option value="">Norwell</option>
+							<option value="">Norwood</option>
+							<option value="">Peabody</option>
+							<option value="">Pembroke</option>
+							<option value="">Plainfield</option>
+							<option value="">Plainville</option>
+							<option value="">Plymouth</option>
+							<option value="">Plympton</option>
+							<option value="">Quincy</option>
+							<option value="">Randolph</option>
+							<option value="">Raynham</option>
+							<option value="">Reading</option>
+							<option value="">Rehoboth</option>
+							<option value="">Revere</option>
+							<option value="">Rochester</option>
+							<option value="">Rockland</option>
+							<option value="">Rockport</option>
+							<option value="">Roslindale</option>
+							<option value="">Rowley</option>
+							<option value="">Roxbury</option>
+							<option value="">Salem</option>
+							<option value="">Salisbury</option>
+							<option value="">Saugus</option>
+							<option value="">Scituate</option>
+							<option value="">Sharon</option>
+							<option value="">Sherborn</option>
+							<option value="">Shrewsbury</option>
+							<option value="">Somerville</option>
+							<option value="">Southborough</option>
+							<option value="">South Boston</option>
+							<option value="">South End</option>
+							<option value="">Stoneham</option>
+							<option value="">Stoughton</option>
+							<option value="">Stow</option>
+							<option value="">Sudbury</option>
+							<option value="">Sutton</option>
+							<option value="">Swampscott</option>
+							<option value="">Taunton</option>
+							<option value="">Tewksbury</option>
+							<option value="">The Fenway</option>
+							<option value="">Topsfield</option>
+							<option value="">Wakefield</option>
+							<option value="">Walpole</option>
+							<option value="">Waltham</option>
+							<option value="">Wareham</option>
+							<option value="">Watertown</option>
+							<option value="">Wayland</option>
+							<option value="">Wellesley</option>
+							<option value="">Wenham</option>
+							<option value="">West Boylston</option>
+							<option value="">West Bridgewater</option>
+							<option value="">West Newbury</option>
+							<option value="">West Brookfield</option>
+							<option value="">West Roxbury</option>
+							<option value="">Westborough</option>
+							<option value="">Westford</option>
+							<option value="">Weston</option>
+							<option value="">Westport</option>
+							<option value="">Westwood</option>
+							<option value="">Weymouth</option>
+							<option value="">Whitman</option>
+							<option value="">Wilmington</option>
+							<option value="">Winchester</option>
+							<option value="">Winthrop</option>
+							<option value="">Woburn</option>
+							<option value="">Worcester</option>
+							<option value="">Wrentham</option>
+						</select>
+
 					<select name="min price" id="" class="minprice" style="margin-left:0;">
 						<option value="">min price</option>
 						<option value="">100000</option>
@@ -120,13 +565,13 @@
 					<div class="checkbox n-rememberme">
 						<label for="" class="label">Open House Alerts</label>
 						<label>
-							<input type="checkbox" value="remember-me"> Remember me
+							<input type="checkbox" value="remember-me"> Daily
 						</label>
 					</div>
 					<div class="checkbox n-rememberme">
 						<label for="" class="label">Permission to Sync Calender Alerts</label>
 						<label>
-							<input type="checkbox" value="remember-me"> Remember me
+							<input type="checkbox" value="remember-me"> True
 						</label>
 					</div>
 					  <div class="modal-footer">
@@ -145,17 +590,17 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Favourite Properties</a>
 			</div>
-			<div class="navbar-header pull-right">
+			<!-- <div class="navbar-header pull-right">
 				<a class="navbar-brand" href="#" data-toggle="modal" data-target="#addProperties">Add New</a>
-			</div>
+			</div> -->
 		</div><!--/.container-fluid -->
 
 		<div class="masthead">
 			<hr / style="margin:0px;">
 			<div role="navigation">
 			  <ul class="nav col-md-12">
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>61 Brookline Boston</h4></a></li>
-				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4>Beacon St Boston</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="property.html"><h4>61 Brookline Boston</h4></a></li>
+				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="property.html"><h4>Beacon St Boston</h4></a></li>
 				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
 				<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><a href="#"><h4></h4></a></li>
 			  </ul>
@@ -164,28 +609,7 @@
 
 		<!-- POPup -->
 
-		<!-- Modal -->
-		<div class="modal fade" id="addProperties" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  <div class="modal-dialog">
-			<div class="modal-content">
-			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-			  </div>
-			  <div class="modal-body">
-				...
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			  </div>
-			</div>
-		  </div>
-		</div>
-		<!-- Button trigger modal -->
-
     </div> <!-- /container -->
-
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="static/js/ie10-viewport-bug-workaround.js"></script>
